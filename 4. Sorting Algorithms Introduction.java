@@ -47,4 +47,6 @@ private static void exch(Comparable[] a, int i, int j) {
 	a[j] = swap;
 }
 
-
+private static boolean less(Comparable v, Comparable w) {
+	return v.compareTo(w) < 0;
+}
